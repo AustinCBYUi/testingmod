@@ -1,0 +1,9 @@
+Always need to go through the items here, textures always has to be added. Block textures and item textures are different.
+
+If doing a block, need to do blockstates, the lang for when it is in your inventory, the models>block for the game itself,
+and the model>item which is also for the inventory for players. Finally, inside of the textures you must add the .png files to
+the textures in the block folder.
+
+If doing an item (I believe it will be specific to individual items like the Ruby tutorial,) you surely do the same.
+Add the item to the lang en_us.json file (same thing as a classname basically), then add the item into the item folder as
+a json, this will specifiy where to point textures to. Lastly, add the texture to the item folder.
