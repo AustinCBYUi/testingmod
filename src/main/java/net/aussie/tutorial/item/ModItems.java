@@ -20,7 +20,8 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     //bow texture test?
-    public static final Item ENDER_BOW = registerItem("ender_bow", new BowItem(new FabricItemSettings().maxDamage(650)));
+    public static final Item ENDER_BOW = registerItem("ender_bow",
+            new BowItem(new FabricItemSettings().maxDamage(650)));
 
     //Creative mode tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
