@@ -1,0 +1,6 @@
+{
+  "parent": "tutorialmod:item/ender_bow",
+  "textures": {
+    "layer0": "tutorialmod:item/ender_bow_pulling_0"
+  }
+}

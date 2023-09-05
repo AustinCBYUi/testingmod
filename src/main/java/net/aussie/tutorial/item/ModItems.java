@@ -20,8 +20,9 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     //bow texture test?
+    //TODO Need to fine tune rotation / translation of the bow in-hand. Definitely needs to be done for 3rd person.
     public static final Item ENDER_BOW = registerItem("ender_bow",
-            new BowItem(new FabricItemSettings().maxDamage(650)));
+            new BowItem(new FabricItemSettings().maxDamage(700)));
 
     //Creative mode tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
