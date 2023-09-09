@@ -20,11 +20,17 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
                         //Needs to be switched
-                        entries.add(ModItems.ENDER_BOW);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_ORE);
+                        //Different Ore locations
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         //claw
                         entries.add(ModItems.ENDER_CLAW);
+                        //bow
+                        entries.add(ModItems.ENDER_BOW);
 
                     }).build());
 
